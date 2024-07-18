@@ -1,0 +1,10 @@
+!apt-get install git
+!git config --global user.name "your-username"
+!git config --global user.email "your-email@example.com"
+!git clone https://github.com/aswiatkowska/neuromatch.git
+
+%cd neuromatch
+
+!git add .
+!git commit -m "trial"
+!git push 
